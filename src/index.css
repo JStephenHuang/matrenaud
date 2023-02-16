@@ -7,7 +7,7 @@
 
 :root {
   font-family: "Druk Wide Medium";
-  @apply font-thin
+  @apply font-thin bg-black text-white scroll-smooth
 }
 
 
@@ -26,15 +26,15 @@
 
 @layer components {
   .navbar-container {
-    @apply w-full h-[10%] flex justify-between items-center text-[12px] bg-white fixed px-10 border-b
+    @apply w-full h-[10%] flex justify-between items-center text-[12px] bg-transparent fixed px-10 z-50
   }
   .navbar-link {
-    @apply bg-white text-black border border-black 
-    rounded-full px-4 py-2 transition-all hover:bg-gray-200
+    @apply bg-transparent text-white hover:bg-white hover:text-black
+    rounded-full px-4 py-2 transition-all
   }
 
   .navbar-link-active {
-    @apply bg-black text-white border border-black
+    @apply bg-white text-black 
     rounded-full px-4 py-2 transition-all
   }
 }

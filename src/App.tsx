@@ -7,16 +7,12 @@ import Photos from "./view/pages/photos";
 
 const App = () => {
   return (
-    <div className="h-screen flex flex-col items-center mx-40">
-      <Navbar />
-      <header className="my-[5%]"></header>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/photos" element={<Photos />}></Route>
-        <Route path="/media" element={<Media />}></Route>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/photos" element={<Photos />}></Route>
+      <Route path="/media" element={<Media />}></Route>
+    </Routes>
   );
 };
 

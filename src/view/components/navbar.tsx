@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar-container">
       <Link className="text-[24px] bold" to="/">
-        MATRENAUD
+        MATRNAUD
       </Link>
       <div className="flex items-center">
         <NavLink
