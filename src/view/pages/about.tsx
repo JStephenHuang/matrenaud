@@ -1,23 +1,7 @@
 const About = () => {
   return (
     <div className="w-full flex flex-col">
-      <section className="flex">
-        <div className="w-[60%] aspect-square border"></div>
-        <div className="w-1/5 flex flex-col justify-between ml-2">
-          <div className="aspect-square border mb-2"></div>
-          <div className="aspect-square border"></div>
-          <div className="aspect-square border mt-2"></div>
-        </div>
-        <div className="w-1/5 flex flex-col ml-2">
-          <p className="bold mb-2">Qui suis-je?</p>
-          <p className="text-[12px]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            aliquid facilis facere temporibus nihil laudantium est sit
-            repellendus unde labore eos incidunt ad provident, aperiam veniam ab
-            voluptatum porro fugit.
-          </p>
-        </div>
-      </section>
+      <section className="flex"></section>
     </div>
   );
 };
