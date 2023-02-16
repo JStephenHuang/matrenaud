@@ -1,0 +1,40 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+@import url(//db.onlinewebfonts.com/c/3724259186746d86859fbb0fde0fa44a?family=Druk+Text+Wide+Web+Medium);
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Druk Text Wide Web Medium";
+  @apply font-thin
+}
+
+/* ! FONTS ! */
+
+@layer components {
+  .bold {
+    font-family: "Druk Wide Bold"
+  }
+  .medium {
+    font-family: "Druk Text Wide Web Medium";
+  }
+}
+
+/* ! NAVBAR ! */
+
+@layer components {
+  .navbar-container {
+    @apply w-full h-[10%] flex justify-between items-center text-[12px] bg-white fixed px-20 border-b
+  }
+  .navbar-link {
+    @apply bg-white text-black border border-black 
+    rounded-full px-4 py-2 transition-all hover:bg-gray-200
+  }
+
+  .navbar-link-active {
+    @apply bg-black text-white border border-black
+    rounded-full px-4 py-2 transition-all
+  }
+}
