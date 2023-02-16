@@ -26,7 +26,7 @@
 
 @layer components {
   .navbar-container {
-    @apply w-full h-[10%] flex justify-between items-center text-[12px] bg-white fixed px-20 border-b
+    @apply w-full h-[10%] flex justify-between items-center text-[12px] bg-white fixed px-10 border-b
   }
   .navbar-link {
     @apply bg-white text-black border border-black 
