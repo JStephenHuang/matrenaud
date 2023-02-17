@@ -15,7 +15,7 @@ const NavbarLink = ({ name, path }: { name: string; path: string }) => {
 
 const Navbar = () => {
   return (
-    <nav className="navbar-container">
+    <nav className="navbar-container bg-black">
       <Link className="text-[24px] bold" to="/">
         MATRNAUD
       </Link>
